@@ -38,6 +38,7 @@
    corresponding to the prologues in crti.S. */
 
 #include <sysdep.h>
+	.file "crtn.S"
 
 	.section .init,"ax",%progbits
 	ldp	x29, x30, [sp], 16
