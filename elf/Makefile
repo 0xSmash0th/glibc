@@ -1828,7 +1828,7 @@ $(objpfx)argv0test.out: tst-rtld-argv0.sh $(objpfx)ld.so \
 
 # Most likely search subdirectories, for each supported architecture.
 # Used to obtain test coverage wide test coverage.
-glibc-hwcaps-first-subdirs-for-tests = power9 x86-64-v2
+glibc-hwcaps-first-subdirs-for-tests = power9 x86-64-v2 z13
 
 # The test modules are parameterized by preprocessor macros.
 LDFLAGS-libmarkermod1-1.so += -Wl,-soname,libmarkermod1.so
