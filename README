@@ -1,5 +1,5 @@
 This directory contains the sources of the GNU C Library.
-See the file "version.h" for what release version you have.
+See the file "version.h" for what release version you have!
 
 The GNU C Library is the standard system C library for all GNU systems,
 and is an important part of what makes up a GNU system.  It provides the
